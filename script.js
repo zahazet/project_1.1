@@ -1,7 +1,7 @@
 const numberOfFilms = +prompt('Скільки фільмів ви вже подивились?', '');
 
 const personalMovieDB = {
-  count: personalMovieDB,
+  count: numberOfFilms,
   movies: {},
   actors:  {},
   genres: [],
